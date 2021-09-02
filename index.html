@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Google Search</title>
+    <script src="https://kit.fontawesome.com/4e1fe4613e.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .google-header {
+            width: 100%;
+            max-width: 500px;
+            float: right;
+            font-family: Sans-Serif;
+        }
+        .google-header img {
+            border-radius: 50%;
+            max-width: 100%;
+        }
+        .gmail-img {
+            border-radius: 50%;
+            float: right;
+            width: 40px;
+            margin-right: 15px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .header-icon {
+            float: right;
+            width: 200px;
+            margin-top: 28px;
+            margin-right: 10px;
+        }
+        .header-icon .fa-th {
+            font-size: 20px;
+            margin-top: 5px;
+            color: gray;
+            float: right;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .header-icon .fa-th:hover {
+            color: #000;
+        }
+        .header-icon .fa-bell {
+            width: 20px;
+            height: 20px;
+            background: #737373;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 10px;
+            margin-top: 5px;
+            padding-top: 5px;
+            text-align: center;
+            float: right;
+            cursor: pointer;
+        }
+        .header-icon .fa-bell:hover {
+            background: #000;
+        }
+        .header-icon .a {
+            float: right;
+            color: #333;
+            margin-right: 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .header-icon .a:hover {
+            color: gray;
+        }
+        .google-search {
+            font-family: Sans-Serif;
+            padding: 20px;
+        }
+        .google-image img {
+            margin: 100px auto 10px;
+            width: 250px;
+            cursor: pointer;
+        }
+        .input-group {
+            margin: 13px auto 10px;
+            border-radius: 20px;
+            max-width: 550px;
+            background: #f5f5f5;
+        }
+        .form-control {
+            border: none !important;
+            border-radius: 20px !important;
+            background: #f5f5f5 !important;
+        }
+        .input-group-text {
+            background: transparent !important;
+            border: none !important;
+        }
+        .input-group .fa {
+            color: #007bff;
+            cursor: pointer;
+        }
+        .form-control:focus {
+            box-shadow: none !important;
+        }
+        .bookmarks{
+            width: 400px;
+            margin-top: 30px;
+            font-family: Sans-Serif;
+            display: block;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;}
+          .col-md-4{
+              width: 120px !important;
+              padding: none !important;}
+              .site{
+                  width: 120px;
+                  height: 120px;
+                  border-radius: 5px;}
+                  .site:hover{
+                      background: #f5f5f5;
+                      cursor: pointer;}
+                .site p{
+                    font-size: 12px;
+                  margin-top:10px;  
+                text-align: center;}
+                .site .fa{
+                    font-size:25px ;
+                    width: 50px;
+                    height: 50px;
+                    margin-left: 35px;
+                    margin-top: 20px;
+                    border-radius: 50%;
+                    background: #d3d3d3;
+                    text-align: center;
+                    padding-top: 12px;}
+                    .row a{
+                        text-decoration: none;
+                        color:#000;
+                    }
+
+    </style>
+</head>
+<body>
+    <div class="google-header">
+        <div class="gmail-img">
+             <a href="http://Srinivasan000.ml"target="_blank"><img src="icon.jpg" title="gmail id" alt="gmail"></a>
+        </div>
+        <div class="header-icon">
+            <a href="http://Srinivasan000.ml"target="_blank"> <i class="fa fa-bell"></i></a>
+             <a href="http://Srinivasan000.ml"target="_blank"><i class="fa fa-th"></i></a>
+            <a href="http://Srinivasan000.ml" target="_blank" class="a">Images</a>
+            <a href="http://Srinivasan000.ml"target="_blank" class="a">Gmail</a>
+        </div>
+    </div>
+    <div class="google-search">
+        <div class="google-image text-center"title="google">
+            <a href="http://Srinivasan000.ml"target="_blank"> <img src="download.png"></a>
+        </div>
+        <div class="input-group text-center">
+            <input type="text" class="form-control" placeholder="Search Google or type URL" id="a">
+            <div class="input-group-append" onclick="a()">
+                <span class="input-group-text"><I class="fa fa-microphone" title="Search by Voice"></I></span>
+            </div>
+        </div>
+        
+    
+
+    </div>
+
+    <div class="bookmarks">
+        <div class="row">
+             <a href="https://m.facebook.com/00srinivasan00/?__tn__=C-R"target="_blank"><div class="col-md-4">
+                <div class="site" title="Gmail">
+                    <I class="fa fa-facebook-square"></I><p>
+                        Facebook
+                    </p>
+                </div>
+            </div></a>
+           <a href="https://www.facebook.com/180562926916720/"target="_blank"> <div class="col-md-4">
+                <div class="site" title="Facebook">
+                    <I class="fa fa-facebook-square"></I><p>
+                        Facebook
+                    </p>
+                </div>
+</div></a>
+                <a href="https://youtube.com/channel/UCUqD2KYlNAETChx05-zLdcA"target="_blank"><div class="col-md-4">
+                    <div class="site" title="YouTube">
+                        <I class="fa fa-youtube-play"></I><p>
+                            YouTube
+                        </p>
+                    </div>
+                </div></a>
+
+                <a href="https://github.com/srinivasan000"target="_blank"><div class="col-md-4">
+                    <div class="site" title="github">
+                        <I class="fa fa-github"></I><p>Github
+                        </p>
+                    </div>
+                </div></a>
+
+                <a href="https://www.instagram.com/srinivasan0i0/"target="_blank"><div class="col-md-4">
+                    <div class="site" title="Instagram">
+                        <I class="fa fa-instagram"></I><p>
+                            Instagram
+                        </p>
+                    </div>
+                </div></a>
+
+               <a href="http://srinivasan000.ml"target="_blank"> <div class="col-md-4">
+                    <div class="site" title="Add Shortcut">
+                        <I class="fa fa-plus"></I><p>
+                            Add shortcut
+                        </p>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        var input=document.querySelector('input');
+        input.addEventListener('keyup',(e)=>{
+            if(e.keyCode == 13){
+                a();
+            }
+        });
+       function a(){
+          var a=document.getElementById("a").value;
+          window.location="https://google.com/search?q="+a;
+           
+       }
+            </script>
+</body>
+</html>
